@@ -25,10 +25,10 @@ CNCF project
 lifecycles
 -------------------------------------
 
-[Contribute to a project](/contributors/)
+[Contribute to a project](/docs/contributors/)
 
-[Maintain a project](/maintainers/)
+[Maintain a project](/docs/projects/)
 
-[Join mentorship programs](/about/mentoring/)
+[Join mentorship programs](/docs/resources/mentorship/)
 
-[Work on accessibility](/accessibility/)
+[Work on accessibility](/docs/community/accessibility/)

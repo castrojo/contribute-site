@@ -21,10 +21,10 @@ There is no need to reinvent the wheel. Whatever challenge you are facing today,
 
 ### Resources
 * [Blog Post of this Talk](https://www.cncf.io/blog/2022/03/10/the-maintainers-toolkit-must-know-resources-for-cncf-projects/)
-* [Community CRM Runbook](/maintainers/community/crm-runbook/)
-* [Measuring Project Health](/maintainers/community/project-health/)
-* [Contributor Growth Framework](/maintainers/community/contributor-growth-framework/)
-* [Project Governance](/maintainers/governance/)
-* [Project Templates](/maintainers/github/templates/)
-* [Maintainer's Circle](/about/maintainers-circle/)
+* [Community CRM Runbook](/docs/projects/community/crm-runbook/)
+* [Measuring Project Health](/docs/projects/community/project-health/)
+* [Contributor Growth Framework](/docs/projects/community/contributor-growth-framework/)
+* [Project Governance](/docs/projects/governance/)
+* [Project Templates](/docs/projects/templates/github/templates/)
+* [Maintainer's Circle](/docs/community/initiatives/maintainers-circle/)
 * [TAG Contributor Strategy](httsp://cncf.io/contributor-strategy)

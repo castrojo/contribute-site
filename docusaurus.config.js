@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Contribute to Cloud Native',
+  tagline: 'Resources for CNCF project maintainers and contributors',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -20,15 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://contribute.cncf.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'cncf', // Usually your GitHub org/user name.
+  projectName: 'contribute-site', // Usually your repo name.
 
   // onBrokenLinks: 'throw',
   onBrokenLinks: 'warn',
@@ -52,7 +52,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/cncf/contribute-site/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -63,7 +63,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/cncf/contribute-site/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -90,13 +90,31 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'contributorsSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Contributors',
+          },
+          {
+            type: 'docSidebar', 
+            sidebarId: 'projectsSidebar',
+            position: 'left',
+            label: 'Projects',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'communitySidebar', 
+            position: 'left',
+            label: 'Community',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'resourcesSidebar',
+            position: 'left', 
+            label: 'Resources',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/cncf/contribute-site',
             label: 'GitHub',
             position: 'right',
           },
@@ -112,11 +130,23 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Contributors',
+                to: '/docs/contributors/',
+              },
+              {
+                label: 'Projects', 
+                to: '/docs/projects/',
+              },
+              {
+                label: 'Community',
+                to: '/docs/community/',
+              },
+              {
+                label: 'Resources',
+                to: '/docs/resources/',
               },
             ],
           },
@@ -124,16 +154,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'CNCF Slack',
+                href: 'https://cloud-native.slack.com/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Mailing Lists',
+                href: 'https://lists.cncf.io/',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Events',
+                href: 'https://events.cncf.io/',
               },
             ],
           },
@@ -146,12 +176,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/cncf/contribute-site',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Cloud Native Computing Foundation. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

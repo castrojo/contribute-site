@@ -11,7 +11,7 @@ This glossary covers CNCF-specific terms, including CNCF group acronyms or how p
 # Terms
 
 ## Charter
-A Charter is a formal document that outlines the purpose, goals, scope, responsibilities, and structure of a particular group or organization. In the context of the CNCF, a Charter may refer to the guiding principles and objectives of a project, [TAG](#technical-advisory-group-tag), [working group](#working-group), or committee. More information about charter can be found in the [Charter guide](https://contribute.cncf.io/maintainers/governance/charter/).
+A Charter is a formal document that outlines the purpose, goals, scope, responsibilities, and structure of a particular group or organization. In the context of the CNCF, a Charter may refer to the guiding principles and objectives of a project, [TAG](#technical-advisory-group-tag), [working group](#working-group), or committee. More information about charter can be found in the [Charter guide](https://contribute.cncf.io/docs/projects/governance/charter/).
 
 ## Cloud Native Ambassador (CNA)
 A [Cloud Native Ambassador](https://www.cncf.io/people/ambassadors/) is an individual who acts as a representative and advocate for cloud-native technologies and the CNCF ecosystem. Ambassadors promote awareness, knowledge sharing, and adoption of cloud-native computing concepts.
@@ -38,7 +38,7 @@ A Contributing Guide is a document or set of instructions that provides guidelin
 A contributor is an individual who actively participates in an open source project by submitting code, documentation, bug reports, or other forms of contributions. Contributors play a vital role in improving and extending the functionality of the project.
 
 ## Contributor Growth Framework
-[Contributor Growth Framework](https://contribute.cncf.io/maintainers/community/contributor-growth-framework/) is a set of guidelines, resources, and mentorship programs aimed at nurturing and supporting the growth and development of contributors within an open source project or community. It provides pathways for contributors to expand their skills and responsibilities.
+[Contributor Growth Framework](https://contribute.cncf.io/docs/projects/community/contributor-growth-framework/) is a set of guidelines, resources, and mentorship programs aimed at nurturing and supporting the growth and development of contributors within an open source project or community. It provides pathways for contributors to expand their skills and responsibilities.
 
 ## Contributor ladder
 A contributor ladder is a structured framework or progression path that defines different levels or stages of contributions within an open source project or community. It helps recognize and reward contributors based on their skills, experience, and level of involvement. CNCF's contributor ladder template can be found [here](https://github.com/cncf/project-template/blob/main/CONTRIBUTOR_LADDER.md).
@@ -56,7 +56,7 @@ The Developer Certificate of Origin (DCO) is a per-commit sign-off made by a con
 An end user is an individual or organization that utilizes or benefits from the products, services, or solutions developed by open source projects. End users may provide feedback, report issues, or contribute insights based on their experiences with the project.
 
 ## Good first issue (label)
-"[Good first issue](https://contribute.cncf.io/maintainers/templates/issue-labels/#good-first-issue)" is a label commonly used in open source projects to identify beginner-friendly tasks or issues that are suitable for newcomers who want to contribute. These issues typically have clear instructions and provide a manageable entry point for new contributors. CNCF's [CLOTributor](https://clotributor.dev/) is a tool that shows the issues with "good first issue" labels as opportunities to start contributing to a project.
+"[Good first issue](https://contribute.cncf.io/docs/projects/templates/issue-labels/#good-first-issue)" is a label commonly used in open source projects to identify beginner-friendly tasks or issues that are suitable for newcomers who want to contribute. These issues typically have clear instructions and provide a manageable entry point for new contributors. CNCF's [CLOTributor](https://clotributor.dev/) is a tool that shows the issues with "good first issue" labels as opportunities to start contributing to a project.
 
 ## Governance
 Governance refers to the set of processes, policies, and structures that guide decision-making, accountability, and overall management of an organization or community. It establishes rules and principles for maintaining order, transparency, and fairness. In CNCF, [open governance](#open-governance) is embraced.
@@ -65,7 +65,7 @@ Governance refers to the set of processes, policies, and structures that guide d
 Graduation is the final stage in the [project lifecycle](#project-lifecycle) within the CNCF. Projects that reach the graduation phase have proven to be successful, have a strong community, and meet the CNCF's requirements. Graduated projects are considered mature and self-sustaining.
 
 ## Help wanted (label)
-"[Help wanted](https://contribute.cncf.io/maintainers/templates/issue-labels/#help-wanted)" is a label used in open source projects to indicate that assistance or contributions are needed for a particular task or issue. It serves as a signal to community members that their help is sought, encouraging them to get involved. CNCF's [CLOTributor](https://clotributor.dev/) is a tool that shows the issues with "help wanted" labels as opportunities to start contributing to a project.
+"[Help wanted](https://contribute.cncf.io/docs/projects/templates/issue-labels/#help-wanted)" is a label used in open source projects to indicate that assistance or contributions are needed for a particular task or issue. It serves as a signal to community members that their help is sought, encouraging them to get involved. CNCF's [CLOTributor](https://clotributor.dev/) is a tool that shows the issues with "help wanted" labels as opportunities to start contributing to a project.
 
 ## Incubation
 Incubation is the intermediate stage in the [project lifecycle](#project-lifecycle) within the CNCF. Projects in the incubation phase have demonstrated promise, community support, and initial success. They are undergoing further development, maturing, and building a diverse contributor base.
@@ -74,16 +74,16 @@ Incubation is the intermediate stage in the [project lifecycle](#project-lifecyc
 Lazy consensus is a decision-making principle commonly used in open source communities. It means that if no objections or concerns are raised within a specified timeframe, a decision or proposal is considered accepted. Lazy consensus empowers individuals to contribute and make decisions effectively.
 
 ## Open Governance
-Open Governance refers to a [governance](#governance) model that promotes transparency, inclusivity, and community participation in decision-making processes. Open source projects often adopt open governance to ensure that contributors and community members have a voice in shaping the project's direction. More information about open governance can be found in the [Governance Guide](https://contribute.cncf.io/maintainers/governance/overview/).
+Open Governance refers to a [governance](#governance) model that promotes transparency, inclusivity, and community participation in decision-making processes. Open source projects often adopt open governance to ensure that contributors and community members have a voice in shaping the project's direction. More information about open governance can be found in the [Governance Guide](https://contribute.cncf.io/docs/projects/governance/overview/).
 
 ## Open Source License
 An Open Source license is a legal instrument that grants permissions and defines the terms under which others can use, modify, and distribute an open source project or its source code. Licenses ensure that open source projects remain free and accessible while protecting the rights of contributors. CNCF's approved licenses can be found [here](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md#approved-licenses-for-allowlist).
 
 ## PR workflow
-PR workflow refers to the process and steps involved in handling Pull Requests (PRs) within an open source project. It typically includes activities such as submitting a PR, code review, addressing feedback, and merging the changes into the project's codebase. More information about PR workflow and how a successful one will look like can be found [here](https://contribute.cncf.io/maintainers/community/contributor-growth-framework/pr-workflow/).
+PR workflow refers to the process and steps involved in handling Pull Requests (PRs) within an open source project. It typically includes activities such as submitting a PR, code review, addressing feedback, and merging the changes into the project's codebase. More information about PR workflow and how a successful one will look like can be found [here](https://contribute.cncf.io/docs/projects/community/contributor-growth-framework/pr-workflow/).
 
 ## Project Health
-Project health refers to the overall status and well-being of an open source project. It may include factors such as active development, community engagement, maintenance, documentation, bug resolution, and adoption rate. More information can be found at the [Project Health Measurement guide](https://contribute.cncf.io/maintainers/community/project-health/).
+Project health refers to the overall status and well-being of an open source project. It may include factors such as active development, community engagement, maintenance, documentation, bug resolution, and adoption rate. More information can be found at the [Project Health Measurement guide](https://contribute.cncf.io/docs/projects/community/project-health/).
 
 ## Project lifecycle
 The project lifecycle refers to the various stages or phases through which a project evolves at the CNCF. It includes 3 stages; [sandbox](#sandbox), [incubation](#incubation), and [graduation](#graduation), each with specific criteria and requirements. The project lifecycle process is documented [here](https://github.com/cncf/toc/blob/main/process/README.md).
@@ -95,7 +95,7 @@ A project maintainer is an individual or a group responsible for managing and ov
 A project roadmap is a visual or written representation of the planned development, milestones, and future goals of an open source project. It outlines the project's strategic direction and provides a timeline for upcoming features, enhancements, and releases.
 
 ## Project Steering Committee
-A Project Steering Committee is a group of individuals responsible for providing strategic guidance, decision-making, and oversight for an open source project. They ensure that the project aligns with its goals, coordinates contributions, and manages project resources. Not every community has a such committee. More information can be found in the [Leadership Selection guide](https://contribute.cncf.io/maintainers/governance/leadership-selection/#types-of-leadership-selection).
+A Project Steering Committee is a group of individuals responsible for providing strategic guidance, decision-making, and oversight for an open source project. They ensure that the project aligns with its goals, coordinates contributions, and manages project resources. Not every community has a such committee. More information can be found in the [Leadership Selection guide](https://contribute.cncf.io/docs/projects/governance/leadership-selection/#types-of-leadership-selection).
 
 ## Quorum
 Quorum refers to the minimum number of members required for a meeting or decision-making process to be valid. In the context of the CNCF, quorum may be necessary for voting or making significant decisions within committees, [TAG](#technical-advisory-group-tag)s, [working group](#working-group)s, or [governance](#governance) bodies.

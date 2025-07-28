@@ -67,7 +67,7 @@ Benefits for the sighted community:
 - **Networking**: Building connections and collaboration with the BVI in tech community.
 - **Greater Representation**: Increased representation benefits the overall community's visibility and reputation.
 
-You may find resources of our working group [here](/accessibility/).
+You may find resources of our working group [here](/docs/community/accessibility/).
 
 </div>
 

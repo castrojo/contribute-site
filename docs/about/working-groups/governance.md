@@ -48,8 +48,8 @@ We provide best practices and resources for managing and interacting with contri
 
 <div class="text-left">
 
-* Have a look at our [Governance Guide](/maintainers/governance/) to see best practices, get advice and have inspiration while setting up or improving your project and community governance
-* Copy and modify one of our codified [Governance Templates](/maintainers/templates/governance-intro/) depending on your community and project
+* Have a look at our [Governance Guide](/docs/projects/governance/) to see best practices, get advice and have inspiration while setting up or improving your project and community governance
+* Copy and modify one of our codified [Governance Templates](/docs/projects/templates/governance-intro/) depending on your community and project
 * Get assistance on governance related issues
 
 </div>
@@ -109,7 +109,7 @@ Reach out for any immediate matters at [#tag-contributor-strategy](https://cloud
 <!-- {{% /blocks/feature %}} -->
 
 <!-- {{% blocks/feature icon="fas fa-info" title="Find out more" %}} -->
-More resources are available on our [Charter Document](https://github.com/cncf/tag-contributor-strategy/blob/main/governance/README.md), [Governance Guide](/maintainers/governance/) and [Governance Templates](/maintainers/templates/governance-intro/).
+More resources are available on our [Charter Document](https://github.com/cncf/tag-contributor-strategy/blob/main/governance/README.md), [Governance Guide](/docs/projects/governance/) and [Governance Templates](/docs/projects/templates/governance-intro/).
 <!-- {{% /blocks/feature %}} -->
 
 <!-- {{< /blocks/section >}} -->
